@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171923">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/batteria_elettronica"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:padding="16dp"/>
+
+
+        <Button
+            android:id="@+id/buttonCrash"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/crash"
+            android:onClick="PlayCrash"/>
+
+        <Button
+            android:id="@+id/buttonRide"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/ride"
+            android:onClick="PlayRide"/>
+
+        <Button
+            android:id="@+id/buttonCow"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/cowbell"
+            android:onClick="PlayCow"/>
+
+        <Button
+            android:id="@+id/buttonTomH"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/tom_h"
+            android:onClick="PlayTomH"/>
+
+        <Button
+            android:id="@+id/buttonTomM"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/tom_m"
+            android:onClick="PlayTomM"/>
+
+        <Button
+            android:id="@+id/buttonTomL"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/tom_l"
+            android:onClick="PlayTomL"/>
+
+        <Button
+            android:id="@+id/buttonSnare"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/snare"
+            android:onClick="PlaySnare"/>
+
+        <Button
+            android:id="@+id/buttonRim"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/rim"
+            android:onClick="PlayRim"/>
+
+        <Button
+            android:id="@+id/buttonClap"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/clap"
+            android:onClick="PlayClap"/>
+
+        <Button
+            android:id="@+id/buttonKick"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/kick"
+            android:onClick="PlayKick"/>
+
+        <Button
+            android:id="@+id/buttonChh"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/hi_hat_chiuso"
+            android:onClick="PlayChh"/>
+
+        <Button
+            android:id="@+id/buttonOhh"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/hi_hat_aperto"
+            android:onClick="PlayOhh"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BatteriaElettronica</string>
+    <string name="batteria_elettronica">BATTERIA ELETTRONICA</string>
+    <string name="crash">CRASH</string>
+    <string name="ride">RIDE</string>
+    <string name="cowbell">COWBELL</string>
+    <string name="tom_h">TOM H</string>
+    <string name="tom_m">TOM M</string>
+    <string name="tom_l">TOM L</string>
+    <string name="snare">SNARE</string>
+    <string name="rim">RIM</string>
+    <string name="clap">CLAP</string>
+    <string name="kick">KICK</string>
+    <string name="hi_hat_chiuso">HI-HAT CHIUSO</string>
+    <string name="hi_hat_aperto">HI-HAT APERTO</string>
+</resources>
